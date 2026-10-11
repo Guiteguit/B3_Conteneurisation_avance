@@ -1,0 +1,14 @@
+# Exemple volontairement incomplet.
+# Ne vous contentez pas de décommenter ce fichier.
+
+name: Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TODO
+        run: echo "Construisez votre propre pipeline"
